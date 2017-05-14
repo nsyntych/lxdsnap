@@ -12,7 +12,7 @@ if __name__ == '__main__':
     now = datetime.now()
     today = now.date()
     last_sunday = today - timedelta(days=(today.weekday() + 1) % 7)
-    keep = [now, today] #, last_sunday]
+    keep = [now, today, last_sunday]
     keep = [x.strftime(fmt) for x in keep]
 
     # Name of the new snapshot to be created
