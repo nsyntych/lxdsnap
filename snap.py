@@ -1,3 +1,5 @@
+#/usr/bin/env python
+
 from datetime import datetime, timedelta
 from pylxd import Client
 from pylxd.exceptions import NotFound
